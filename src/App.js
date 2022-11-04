@@ -7,9 +7,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
-      {/*<div className="title">My first react app</div>
-        <img src={logo} className="App-logo" alt="logo" />*/}
         <Move />
         <KeyStroke />    
       </header>

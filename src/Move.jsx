@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import head from './minecraft_head.png'
+import head from './img/minecraft_head.png'
 
 export default function Move() {
     const [x, setX] = useState(window.innerWidth / 2);

@@ -3,10 +3,10 @@ import {useState, useEffect} from 'react'
 function KeyStrokeKey({name}) {
     const [pressed, setPressed] = useState(false);
     const handleKeyDown = (e) => {
-        if(e.key == name) setPressed(true);
+        if(e.key === name) setPressed(true);
     }
     const handleKeyUp = (e) => {
-        if(e.key == name) setPressed(false);
+        if(e.key === name) setPressed(false);
     }
     useEffect(() => {
             window.addEventListener('keydown', handleKeyDown);
@@ -23,7 +23,7 @@ function KeyStrokeKey({name}) {
 export default function KeyStroke()
 {
 
-    return <table>
+    return <table className="keystrokes">
         <tbody>
             <tr>
                 <td></td>
