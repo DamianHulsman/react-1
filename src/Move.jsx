@@ -11,7 +11,7 @@ export default function Move() {
             const a = 10;
             switch(e.key) {
                 case 's':
-                    setY(y =>y + a);
+                    setY(y => y + a);
                     break;
                 case 'a':
                     setX(x => x - a);

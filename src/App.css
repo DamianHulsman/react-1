@@ -60,6 +60,7 @@
 }
 .keystroke.pressed {
   background-color: aqua;
+  transform: rotatex(45deg) rotate(69deg);
 }
 .keystroke.unpressed {
   background-color: blue;

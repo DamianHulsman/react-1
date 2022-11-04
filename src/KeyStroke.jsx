@@ -24,23 +24,25 @@ export default function KeyStroke()
 {
 
     return <table>
-        <tr>
-            <td></td>
-            <td>
-                <KeyStrokeKey name="w"/>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>
-                <KeyStrokeKey name="a"/>
-            </td>
-            <td>
-                <KeyStrokeKey name="s"/>
-            </td>
-            <td>
-                <KeyStrokeKey name="d"/>
-            </td>
-        </tr>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>
+                    <KeyStrokeKey name="w"/>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <KeyStrokeKey name="a"/>
+                </td>
+                <td>
+                    <KeyStrokeKey name="s"/>
+                </td>
+                <td>
+                    <KeyStrokeKey name="d"/>
+                </td>
+            </tr>
+        </tbody>
     </table>
 }
