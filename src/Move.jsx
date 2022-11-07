@@ -35,5 +35,5 @@ export default function Move() {
         else setOver(false);
     }, [x, y])
 
-    return <div style={{top: y, left: x, position: 'fixed', backgroundColor: over ? 'red' : 'green'}}><img src={head} alt='head'></img></div>
+    return <div id="move" style={{top: y, left: x, position: 'fixed', backgroundColor: over ? 'red' : 'green'}}><img src={head} alt='head'></img></div>
 }
