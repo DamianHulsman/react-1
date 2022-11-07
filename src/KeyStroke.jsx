@@ -22,7 +22,6 @@ function KeyStrokeKey({name}) {
 
 export default function KeyStroke()
 {
-
     return <table className="keystrokes">
         <tbody>
             <tr>
