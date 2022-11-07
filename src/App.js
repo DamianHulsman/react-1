@@ -2,6 +2,9 @@ import './App.css';
 import sound from './audio/Minecraft_Hit.mp3';
 import Move from './Move';
 import KeyStroke from './KeyStroke';
+
+// IMPORTANT; everything that is commented out needs to stay commented out because otherwise it will return way too many errors
+
 // var ffmpeg = require('ffmpeg');
 // import ToMp3 from './ToMp3';
 
@@ -36,7 +39,7 @@ try {
       <header className="App-header">
         <button onClick={play}>playsound</button>
         <form>
-          <input type='text' id="url" placeholder="url to yt video"></input>
+          <input type='text' id="url" placeholder="url to yt video" disabled></input>
           <button type='submit' onClick={convertVideo} disabled>Convert!</button>
         </form>
         <KeyStroke />
