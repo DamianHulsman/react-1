@@ -8,9 +8,6 @@ import KeyStroke from './KeyStroke';
 function App() {
   function play() {
     new Audio(sound).play();
-      setTimeout(() => {
-        new Audio(sound).play();
-      }, 1000);
   }
   function convertVideo() {
     // let url = document.getElementById('url').value;

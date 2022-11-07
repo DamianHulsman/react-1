@@ -63,3 +63,7 @@
 .keystroke.unpressed {
   background-color: blue;
 }
+.keystrokes
+{
+  margin-left: 70px;
+}
